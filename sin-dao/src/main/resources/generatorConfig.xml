@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC
+    "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+    "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <!-- !!!! Driver Class Path !!!! -->
+    <classPathEntry
+        location="/Users/running-snail/.m2/repository/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar"/>
+    <context id="context" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+            <property name="suppressDate" value="false"/>
+        </commentGenerator>
+        <!-- !!!! Database Configurations !!!! -->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+            connectionURL="jdbc:mysql://localhost:3306/test?useSSL=false&amp;serverTimezone=UTC"
+            userId="root"
+            password="123"/>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+        <!-- !!!! Model Configurations !!!! -->
+        <javaModelGenerator targetPackage="com.example.sin.entity" targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!-- !!!! Mapper XML Configurations !!!! -->
+        <sqlMapGenerator targetPackage="META-INF.mybatis" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+        <!-- !!!! Mapper Interface Configurations !!!! -->
+        <javaClientGenerator targetPackage="com.example.sin.mapper" targetProject="src/main/java"
+            type="XMLMAPPER">
+            <property name="enableSubPackages" value="false"/>
+        </javaClientGenerator>
+        <!-- !!!! Table Configurations !!!! -->
+        <table tableName="mybatiespage" domainObjectName="UserDO" enableCountByExample="false"
+            enableDeleteByExample="false" enableSelectByExample="false"
+            enableUpdateByExample="false"/>
+<!--        <table tableName="mls_role" domainObjectName="MlsRole" enableCountByExample="false"-->
+<!--            enableDeleteByExample="false" enableSelectByExample="false"-->
+<!--            enableUpdateByExample="false"/>-->
+<!--        <table tableName="mls_user_role" domainObjectName="MlsUserRole" enableCountByExample="false"-->
+<!--            enableDeleteByExample="false" enableSelectByExample="false"-->
+<!--            enableUpdateByExample="false"/>-->
+    </context>
+</generatorConfiguration>

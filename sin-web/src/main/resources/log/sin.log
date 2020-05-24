@@ -1,0 +1,356 @@
+ INFO  INFO 2020-05-23 20:21:21.999 INFO 
+                [main] com.example.sin.Application [StartupInfoLogger.java : 55] Starting Application on Running-SnaildeMacBook-Pro.local with PID 4792 (/Users/running-snail/IdeaProjects/testing/sin-web/target/classes started by running-snail in /Users/running-snail/IdeaProjects/testing)
+DEBUG DEBUG 2020-05-23 20:21:22.004 DEBUG
+                [main] com.example.sin.Application [StartupInfoLogger.java : 56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+ INFO  INFO 2020-05-23 20:21:22.004 INFO 
+                [main] com.example.sin.Application [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+DEBUG DEBUG 2020-05-23 20:21:22.491 DEBUG
+                [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathScanningCandidateComponentProvider.java : 435] Identified candidate component class: file [/Users/running-snail/IdeaProjects/testing/sin-dao/target/classes/com/example/sin/mapper/UserDOMapper.class]
+DEBUG DEBUG 2020-05-23 20:21:22.492 DEBUG
+                [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 180] Creating MapperFactoryBean with name 'userDOMapper' and 'com.example.sin.mapper.UserDOMapper' mapperInterface
+DEBUG DEBUG 2020-05-23 20:21:22.492 DEBUG
+                [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 216] Enabling autowire by type for MapperFactoryBean with name 'userDOMapper'.
+DEBUG DEBUG 2020-05-23 20:21:23.330 DEBUG
+                [main] com.zaxxer.hikari.HikariConfig [HikariConfig.java : 946] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+DEBUG DEBUG 2020-05-23 20:21:23.361 DEBUG
+                [main] org.apache.ibatis.logging.LogFactory [LogFactory.java : 135] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG DEBUG 2020-05-23 20:21:23.452 DEBUG
+                [main] o.m.spring.SqlSessionFactoryBean [SqlSessionFactoryBean.java : 529] Parsed mapper file: 'file [/Users/running-snail/IdeaProjects/testing/sin-dao/target/classes/META-INF/mybatis/UserDOMapper.xml]'
+DEBUG DEBUG 2020-05-23 20:21:23.902 DEBUG
+                [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 54] initialising the handler methods
+ INFO  INFO 2020-05-23 20:21:23.904 INFO 
+                [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+ INFO  INFO 2020-05-23 20:21:24.240 INFO 
+                [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 147] Context refreshed
+ INFO  INFO 2020-05-23 20:21:24.251 INFO 
+                [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 150] Found 1 custom documentation plugin(s)
+ INFO  INFO 2020-05-23 20:21:24.284 INFO 
+                [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+DEBUG DEBUG 2020-05-23 20:21:24.297 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type I
+DEBUG DEBUG 2020-05-23 20:21:24.297 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |insertUser|
+DEBUG DEBUG 2020-05-23 20:21:24.298 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 90] Adding input parameter of type Lcom/example/sin/entity/UserDO;
+DEBUG DEBUG 2020-05-23 20:21:24.298 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |insertUser|
+DEBUG DEBUG 2020-05-23 20:21:24.300 DEBUG
+                [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |insertUser|
+DEBUG DEBUG 2020-05-23 20:21:24.305 DEBUG
+                [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 80] Skipping model of type I as its either a container type, map, enum or base type, or its already been handled
+DEBUG DEBUG 2020-05-23 20:21:24.306 DEBUG
+                [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 74] Did not find any parameter models for int
+DEBUG DEBUG 2020-05-23 20:21:24.306 DEBUG
+                [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 99] Marking base type I as seen
+DEBUG DEBUG 2020-05-23 20:21:24.320 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 121] Reading property id
+DEBUG DEBUG 2020-05-23 20:21:24.323 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setId
+DEBUG DEBUG 2020-05-23 20:21:24.324 DEBUG
+                [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 76] Name 'id' renamed to 'id'
+DEBUG DEBUG 2020-05-23 20:21:24.324 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 284] Adding property id to model
+DEBUG DEBUG 2020-05-23 20:21:24.325 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setId
+DEBUG DEBUG 2020-05-23 20:21:24.325 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setId
+DEBUG DEBUG 2020-05-23 20:21:24.325 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setId
+DEBUG DEBUG 2020-05-23 20:21:24.325 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setId
+DEBUG DEBUG 2020-05-23 20:21:24.327 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 121] Reading property name
+DEBUG DEBUG 2020-05-23 20:21:24.327 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setName
+DEBUG DEBUG 2020-05-23 20:21:24.327 DEBUG
+                [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 76] Name 'name' renamed to 'name'
+DEBUG DEBUG 2020-05-23 20:21:24.327 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 284] Adding property name to model
+DEBUG DEBUG 2020-05-23 20:21:24.328 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setName
+DEBUG DEBUG 2020-05-23 20:21:24.328 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setName
+DEBUG DEBUG 2020-05-23 20:21:24.328 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setName
+DEBUG DEBUG 2020-05-23 20:21:24.328 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setName
+DEBUG DEBUG 2020-05-23 20:21:24.328 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 121] Reading property age
+DEBUG DEBUG 2020-05-23 20:21:24.328 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setAge
+DEBUG DEBUG 2020-05-23 20:21:24.329 DEBUG
+                [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 76] Name 'age' renamed to 'age'
+DEBUG DEBUG 2020-05-23 20:21:24.329 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 284] Adding property age to model
+DEBUG DEBUG 2020-05-23 20:21:24.329 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setAge
+DEBUG DEBUG 2020-05-23 20:21:24.329 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setAge
+DEBUG DEBUG 2020-05-23 20:21:24.329 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setAge
+DEBUG DEBUG 2020-05-23 20:21:24.329 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setAge
+DEBUG DEBUG 2020-05-23 20:21:24.330 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 121] Reading property height
+DEBUG DEBUG 2020-05-23 20:21:24.330 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setHeight
+DEBUG DEBUG 2020-05-23 20:21:24.330 DEBUG
+                [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 76] Name 'height' renamed to 'height'
+DEBUG DEBUG 2020-05-23 20:21:24.330 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 284] Adding property height to model
+DEBUG DEBUG 2020-05-23 20:21:24.330 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setHeight
+DEBUG DEBUG 2020-05-23 20:21:24.330 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setHeight
+DEBUG DEBUG 2020-05-23 20:21:24.330 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setHeight
+DEBUG DEBUG 2020-05-23 20:21:24.330 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 73] Evaluating unwrapped setter for member setHeight
+DEBUG DEBUG 2020-05-23 20:21:24.334 DEBUG
+                [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 86] Inferred 4 properties. Properties found age, height, id, name
+DEBUG DEBUG 2020-05-23 20:21:24.336 DEBUG
+                [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 69] Generated parameter model id: UserDO, name: UserDO, schema: {} models
+DEBUG DEBUG 2020-05-23 20:21:24.336 DEBUG
+                [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 87] Adding a new model with key UserDO
+DEBUG DEBUG 2020-05-23 20:21:24.345 DEBUG
+                [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: int
+DEBUG DEBUG 2020-05-23 20:21:24.347 DEBUG
+                [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 99] Authorization count 0 for method insertUser
+DEBUG DEBUG 2020-05-23 20:21:24.354 DEBUG
+                [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:int
+DEBUG DEBUG 2020-05-23 20:21:24.357 DEBUG
+                [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method insertUser
+DEBUG DEBUG 2020-05-23 20:21:24.367 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type Lcom/example/sin/entity/UserDO;
+DEBUG DEBUG 2020-05-23 20:21:24.367 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |selectById|
+DEBUG DEBUG 2020-05-23 20:21:24.368 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |selectById|
+DEBUG DEBUG 2020-05-23 20:21:24.368 DEBUG
+                [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |selectById|
+DEBUG DEBUG 2020-05-23 20:21:24.369 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 121] Reading property id
+DEBUG DEBUG 2020-05-23 20:21:24.369 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getId
+DEBUG DEBUG 2020-05-23 20:21:24.369 DEBUG
+                [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 60] Name 'id' renamed to 'id'
+DEBUG DEBUG 2020-05-23 20:21:24.369 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 284] Adding property id to model
+DEBUG DEBUG 2020-05-23 20:21:24.370 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getId
+DEBUG DEBUG 2020-05-23 20:21:24.370 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getId
+DEBUG DEBUG 2020-05-23 20:21:24.370 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getId
+DEBUG DEBUG 2020-05-23 20:21:24.370 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getId
+DEBUG DEBUG 2020-05-23 20:21:24.370 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 121] Reading property name
+DEBUG DEBUG 2020-05-23 20:21:24.370 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getName
+DEBUG DEBUG 2020-05-23 20:21:24.370 DEBUG
+                [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 60] Name 'name' renamed to 'name'
+DEBUG DEBUG 2020-05-23 20:21:24.370 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 284] Adding property name to model
+DEBUG DEBUG 2020-05-23 20:21:24.371 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getName
+DEBUG DEBUG 2020-05-23 20:21:24.371 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getName
+DEBUG DEBUG 2020-05-23 20:21:24.371 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getName
+DEBUG DEBUG 2020-05-23 20:21:24.371 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getName
+DEBUG DEBUG 2020-05-23 20:21:24.371 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 121] Reading property age
+DEBUG DEBUG 2020-05-23 20:21:24.371 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAge
+DEBUG DEBUG 2020-05-23 20:21:24.371 DEBUG
+                [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 60] Name 'age' renamed to 'age'
+DEBUG DEBUG 2020-05-23 20:21:24.372 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 284] Adding property age to model
+DEBUG DEBUG 2020-05-23 20:21:24.372 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAge
+DEBUG DEBUG 2020-05-23 20:21:24.372 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAge
+DEBUG DEBUG 2020-05-23 20:21:24.372 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAge
+DEBUG DEBUG 2020-05-23 20:21:24.372 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAge
+DEBUG DEBUG 2020-05-23 20:21:24.372 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 121] Reading property height
+DEBUG DEBUG 2020-05-23 20:21:24.372 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getHeight
+DEBUG DEBUG 2020-05-23 20:21:24.372 DEBUG
+                [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 60] Name 'height' renamed to 'height'
+DEBUG DEBUG 2020-05-23 20:21:24.373 DEBUG
+                [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 284] Adding property height to model
+DEBUG DEBUG 2020-05-23 20:21:24.373 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getHeight
+DEBUG DEBUG 2020-05-23 20:21:24.373 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getHeight
+DEBUG DEBUG 2020-05-23 20:21:24.373 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getHeight
+DEBUG DEBUG 2020-05-23 20:21:24.373 DEBUG
+                [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getHeight
+DEBUG DEBUG 2020-05-23 20:21:24.373 DEBUG
+                [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 86] Inferred 4 properties. Properties found age, height, id, name
+DEBUG DEBUG 2020-05-23 20:21:24.373 DEBUG
+                [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 69] Generated parameter model id: UserDO, name: UserDO, schema: {} models
+DEBUG DEBUG 2020-05-23 20:21:24.375 DEBUG
+                [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: UserDO
+DEBUG DEBUG 2020-05-23 20:21:24.376 DEBUG
+                [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 99] Authorization count 0 for method selectById
+DEBUG DEBUG 2020-05-23 20:21:24.376 DEBUG
+                [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:UserDO
+DEBUG DEBUG 2020-05-23 20:21:24.377 DEBUG
+                [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method selectById
+DEBUG DEBUG 2020-05-23 20:21:24.377 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type Ljava/util/List<Lcom/example/sin/entity/UserDO;>;
+DEBUG DEBUG 2020-05-23 20:21:24.377 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |selectByIdRange|
+DEBUG DEBUG 2020-05-23 20:21:24.378 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |selectByIdRange|
+DEBUG DEBUG 2020-05-23 20:21:24.378 DEBUG
+                [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |selectByIdRange|
+DEBUG DEBUG 2020-05-23 20:21:24.378 DEBUG
+                [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 80] Skipping model of type Ljava/util/List<Lcom/example/sin/entity/UserDO;>; as its either a container type, map, enum or base type, or its already been handled
+DEBUG DEBUG 2020-05-23 20:21:24.378 DEBUG
+                [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 74] Did not find any parameter models for java.util.List<com.example.sin.entity.UserDO>
+DEBUG DEBUG 2020-05-23 20:21:24.378 DEBUG
+                [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 124] Adding type for parameter Lcom/example/sin/entity/UserDO;
+DEBUG DEBUG 2020-05-23 20:21:24.379 DEBUG
+                [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 126] Recursively resolving dependencies for parameter Lcom/example/sin/entity/UserDO;
+DEBUG DEBUG 2020-05-23 20:21:24.381 DEBUG
+                [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 86] Inferred 4 properties. Properties found age, height, id, name
+DEBUG DEBUG 2020-05-23 20:21:24.382 DEBUG
+                [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: List
+DEBUG DEBUG 2020-05-23 20:21:24.383 DEBUG
+                [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 99] Authorization count 0 for method selectByIdRange
+DEBUG DEBUG 2020-05-23 20:21:24.383 DEBUG
+                [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:List
+DEBUG DEBUG 2020-05-23 20:21:24.384 DEBUG
+                [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method selectByIdRange
+DEBUG DEBUG 2020-05-23 20:21:24.384 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type Ljava/lang/String;
+DEBUG DEBUG 2020-05-23 20:21:24.384 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |test|
+DEBUG DEBUG 2020-05-23 20:21:24.385 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |test|
+DEBUG DEBUG 2020-05-23 20:21:24.385 DEBUG
+                [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |test|
+DEBUG DEBUG 2020-05-23 20:21:24.385 DEBUG
+                [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 80] Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+DEBUG DEBUG 2020-05-23 20:21:24.385 DEBUG
+                [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 74] Did not find any parameter models for java.lang.String
+DEBUG DEBUG 2020-05-23 20:21:24.385 DEBUG
+                [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 99] Marking base type Ljava/lang/String; as seen
+DEBUG DEBUG 2020-05-23 20:21:24.386 DEBUG
+                [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: string
+DEBUG DEBUG 2020-05-23 20:21:24.387 DEBUG
+                [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 99] Authorization count 0 for method test
+DEBUG DEBUG 2020-05-23 20:21:24.387 DEBUG
+                [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:string
+DEBUG DEBUG 2020-05-23 20:21:24.388 DEBUG
+                [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method test
+DEBUG DEBUG 2020-05-23 20:21:24.388 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type I
+DEBUG DEBUG 2020-05-23 20:21:24.388 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |updateUser|
+DEBUG DEBUG 2020-05-23 20:21:24.389 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 90] Adding input parameter of type Lcom/example/sin/entity/UserDO;
+DEBUG DEBUG 2020-05-23 20:21:24.389 DEBUG
+                [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |updateUser|
+DEBUG DEBUG 2020-05-23 20:21:24.389 DEBUG
+                [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |updateUser|
+DEBUG DEBUG 2020-05-23 20:21:24.389 DEBUG
+                [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 74] Did not find any parameter models for int
+DEBUG DEBUG 2020-05-23 20:21:24.389 DEBUG
+                [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 69] Generated parameter model id: UserDO, name: UserDO, schema: {} models
+DEBUG DEBUG 2020-05-23 20:21:24.390 DEBUG
+                [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: int
+DEBUG DEBUG 2020-05-23 20:21:24.391 DEBUG
+                [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 99] Authorization count 0 for method updateUser
+DEBUG DEBUG 2020-05-23 20:21:24.391 DEBUG
+                [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:int
+DEBUG DEBUG 2020-05-23 20:21:24.392 DEBUG
+                [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method updateUser
+ INFO  INFO 2020-05-23 20:21:24.416 INFO 
+                [main] com.example.sin.Application [StartupInfoLogger.java : 61] Started Application in 22.763 seconds (JVM running for 28.211)
+ INFO  INFO 2020-05-23 20:22:58.552 INFO 
+                [main] com.example.sin.Application [StartupInfoLogger.java : 55] Starting Application on Running-SnaildeMacBook-Pro.local with PID 4798 (/Users/running-snail/IdeaProjects/testing/sin-web/target/classes started by running-snail in /Users/running-snail/IdeaProjects/testing)
+ INFO  INFO 2020-05-23 20:22:58.557 INFO 
+                [main] com.example.sin.Application [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+DEBUG DEBUG 2020-05-23 20:22:58.988 DEBUG
+                [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathScanningCandidateComponentProvider.java : 435] Identified candidate component class: file [/Users/running-snail/IdeaProjects/testing/sin-dao/target/classes/com/example/sin/mapper/UserDOMapper.class]
+DEBUG DEBUG 2020-05-23 20:22:58.988 DEBUG
+                [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 180] Creating MapperFactoryBean with name 'userDOMapper' and 'com.example.sin.mapper.UserDOMapper' mapperInterface
+DEBUG DEBUG 2020-05-23 20:22:58.988 DEBUG
+                [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 216] Enabling autowire by type for MapperFactoryBean with name 'userDOMapper'.
+DEBUG DEBUG 2020-05-23 20:22:59.781 DEBUG
+                [main] o.m.spring.SqlSessionFactoryBean [SqlSessionFactoryBean.java : 529] Parsed mapper file: 'file [/Users/running-snail/IdeaProjects/testing/sin-dao/target/classes/META-INF/mybatis/UserDOMapper.xml]'
+ INFO  INFO 2020-05-23 20:23:00.204 INFO 
+                [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+ INFO  INFO 2020-05-23 20:23:00.518 INFO 
+                [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 147] Context refreshed
+ INFO  INFO 2020-05-23 20:23:00.528 INFO 
+                [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 150] Found 1 custom documentation plugin(s)
+ INFO  INFO 2020-05-23 20:23:00.551 INFO 
+                [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+ INFO  INFO 2020-05-23 20:23:00.647 INFO 
+                [main] com.example.sin.Application [StartupInfoLogger.java : 61] Started Application in 22.387 seconds (JVM running for 27.812)
+ INFO  INFO 2020-05-23 20:23:39.274 INFO 
+                [http-nio-8080-exec-1] c.example.sin.config.LoggerAopConfig [LoggerAopConfig.java : 36] start | 2020-05-23 20:23:39 | com.example.sin.controller.UserController | selectByIdRange | [1]
+DEBUG DEBUG 2020-05-23 20:23:39.287 DEBUG
+                [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 97] Creating a new SqlSession
+DEBUG DEBUG 2020-05-23 20:23:39.290 DEBUG
+                [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 148] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6474d30b] was not registered for synchronization because synchronization is not active
+ INFO  INFO 2020-05-23 20:23:39.297 INFO 
+                [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+ INFO  INFO 2020-05-23 20:23:39.695 INFO 
+                [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+DEBUG DEBUG 2020-05-23 20:23:39.699 DEBUG
+                [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction [SpringManagedTransaction.java : 87] JDBC Connection [HikariProxyConnection@1816637318 wrapping com.mysql.cj.jdbc.ConnectionImpl@4d69e59f] will not be managed by Spring
+DEBUG DEBUG 2020-05-23 20:23:39.734 DEBUG
+                [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 191] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6474d30b]
+ INFO  INFO 2020-05-23 20:23:39.738 INFO 
+                [http-nio-8080-exec-1] c.example.sin.config.LoggerAopConfig [LoggerAopConfig.java : 43] end | 2020-05-23 20:23:39 | com.example.sin.controller.UserController | selectByIdRange | [1] | 506ms
+ INFO  INFO 2020-05-23 20:24:23.333 INFO 
+                [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariPool-1 - Shutdown initiated...
+ INFO  INFO 2020-05-23 20:24:23.341 INFO 
+                [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariPool-1 - Shutdown completed.
+ WARN  WARN 2020-05-23 20:26:16.911 WARN 
+                [main] o.s.boot.StartupInfoLogger [StartupInfoLogger.java : 116] InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+ INFO  INFO 2020-05-23 20:26:21.922 INFO 
+                [main] com.example.sin.Application [StartupInfoLogger.java : 55] Starting Application on Running-SnaildeMacBook-Pro.local with PID 4877 (/Users/running-snail/IdeaProjects/testing/sin-web/target/classes started by running-snail in /Users/running-snail/IdeaProjects/testing)
+ INFO  INFO 2020-05-23 20:26:21.924 INFO 
+                [main] com.example.sin.Application [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+ INFO  INFO 2020-05-23 20:26:22.922 INFO 
+                [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+ INFO  INFO 2020-05-23 20:26:22.928 INFO 
+                [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+ INFO  INFO 2020-05-23 20:26:22.929 INFO 
+                [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+ INFO  INFO 2020-05-23 20:26:22.929 INFO 
+                [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+ INFO  INFO 2020-05-23 20:26:22.991 INFO 
+                [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+ INFO  INFO 2020-05-23 20:26:22.991 INFO 
+                [main] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 1028 ms
+ INFO  INFO 2020-05-23 20:26:23.565 INFO 
+                [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+ INFO  INFO 2020-05-23 20:26:23.665 INFO 
+                [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 181] Initializing ExecutorService 'applicationTaskExecutor'
+ INFO  INFO 2020-05-23 20:26:23.853 INFO 
+                [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+ INFO  INFO 2020-05-23 20:26:23.877 INFO 
+                [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path ''
+ INFO  INFO 2020-05-23 20:26:23.878 INFO 
+                [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 147] Context refreshed
+ INFO  INFO 2020-05-23 20:26:23.887 INFO 
+                [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 150] Found 1 custom documentation plugin(s)
+ INFO  INFO 2020-05-23 20:26:23.909 INFO 
+                [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+ INFO  INFO 2020-05-23 20:26:24.005 INFO 
+                [main] com.example.sin.Application [StartupInfoLogger.java : 61] Started Application in 22.374 seconds (JVM running for 27.775)
+ INFO  INFO 2020-05-23 20:27:07.617 INFO 
+                [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 218] Shutting down ExecutorService 'applicationTaskExecutor'
