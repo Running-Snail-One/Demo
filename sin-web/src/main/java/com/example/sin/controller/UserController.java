@@ -1,14 +1,15 @@
 package com.example.sin.controller;
 
 import com.example.sin.entity.UserDO;
+import com.example.sin.qo.UserQO;
 import com.example.sin.service.UserService;
 import com.example.sin.service.utils.Pagination;
-import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.*;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import java.util.List;
+
 
 @RestController
 @RequestMapping("user")
@@ -41,8 +42,10 @@ public class UserController {
 
     @PostMapping(value = "insertUser")
     @ApiOperation(value = "插入user对象")
-    @ApiImplicitParam(name = "userDO", value = "user对象",required = true, dataType = "UserDO")
-    public int insertUser(@RequestBody UserDO userDO) {
+    @ApiImplicitParam(name = "userQO", value = "userQO对象",required = true, dataType = "UserQO")
+    public int insertUser(@RequestBody UserQO userQO) {
+        UserDO userDO = new UserDO();
+        BeanUtils.copyProperties(userQO,userDO);
         return userService.insert(userDO);
     }
 

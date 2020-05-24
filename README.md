@@ -3,7 +3,7 @@
 
 2020年05月24日11:12:13  提交内容涉及点：
             1：项目模块化搭建
-            2：swagger 集成
+            2：swagger 集成网页地址：localhost:8080/swagger-ui.html
                 注解解释：@Api 用在Controller类
                         @@ApiOperation用在方法上
                         @ApiImplicitParam 入参详解
